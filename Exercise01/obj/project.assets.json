@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
+      "projectUniqueName": "C:\\Users\\Jerry Auvagha\\Documents\\Programming\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
       "projectName": "Exercise01",
-      "projectPath": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
+      "projectPath": "C:\\Users\\Jerry Auvagha\\Documents\\Programming\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
       "packagesPath": "C:\\Users\\Jerry Auvagha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\obj\\",
+      "outputPath": "C:\\Users\\Jerry Auvagha\\Documents\\Programming\\MS-Coding-Challenge\\Exercise01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jerry Auvagha\\AppData\\Roaming\\NuGet\\NuGet.Config"
