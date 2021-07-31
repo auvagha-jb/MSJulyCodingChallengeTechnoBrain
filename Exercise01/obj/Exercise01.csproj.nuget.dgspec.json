@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
+        "projectName": "Exercise01",
+        "projectPath": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\Exercise01.csproj",
+        "packagesPath": "C:\\Users\\Jerry Auvagha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jerry Auvagha\\Desktop\\MS-Coding-Challenge\\Exercise01\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jerry Auvagha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
