@@ -9,16 +9,16 @@ namespace Exercise01
         {
             var validator = new Validator();
 
-
             Console.WriteLine("The default regular expression checks for at least one digit.");
             Console.WriteLine("Enter a regular expression (or press ENTER to choose the default):");
 
             //Accept the Regex input
-            validator.RegExp = Console.ReadLine();
-            validator.validateRegex();
+            validator.RegExp = "";
 
-            //Accept oth er input
-            validator.Input = Console.ReadLine();
+            Console.WriteLine(validator.RegExp);
+
+            //Accept other input
+            validator.Input = "hello";
 
             validator.Match = validator.inputMatchesRegex();
 

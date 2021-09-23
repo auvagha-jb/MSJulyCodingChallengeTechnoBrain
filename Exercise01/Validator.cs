@@ -5,27 +5,49 @@ namespace Exercise01
 {
     class Validator
     {
+        public string _input;
 
-        public string Input { set; get; }
-        public string RegExp { set; get; }
-        public bool Match { set; get; }
-
-        public bool hasInput()
+        public string Input
         {
-            return this.Input.Trim().Length > 0;
-        }
-        public void validateRegex()
-        {
-            string defaultRegex = "^[a-z]+$";
-            bool regexWasEntered = this.RegExp.Trim().Length > 0;
-            
-            if (!regexWasEntered)
+            get
             {
-                this.RegExp = defaultRegex; 
+                return this._input;
+            }
+
+            set
+            {
+                if(!this.valueWasEntered()) {
+                    
+                }
+                this._regExp = regexWasEntered ? value : defaultRegex;
             }
         }
 
-        public bool inputMatchesRegex() 
+        private string _regExp;
+        public string RegExp
+        {
+            get
+            {
+                return this._regExp;
+            }
+
+            set
+            {
+                string defaultRegex = "^[a-z]+$";
+                this._regExp = this.valueWasEntered(value) ? value : defaultRegex;
+            }
+        }
+        public bool Match { set; get; }
+
+        /**
+        * Validates the length of the user's input to ensure the value entered was not blank
+        */
+        public bool valueWasEntered(string value)
+        {
+            return value.Trim().Length > 0;
+        }
+
+        public bool inputMatchesRegex()
         {
             return Regex.Match(this.Input, this.RegExp).Success;
         }
